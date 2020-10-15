@@ -12,12 +12,17 @@ A linear search, also known as a sequential search, is a method of finding an el
 program :
 
 #include <stdio.h>
+
 #include <conio.h>
+
 #include <stdlib.h>
 
 main()
+
 {
+
 /* Declare variables - array_of_number,search_key,i,j,low,high*/
+
     int array[1000],search_key,i,j,n,low,high,location,choice;
     void linear_search(int search_key,int array[1000],int n);
     void binary_search(int search_key,int array[1000],int n);
@@ -113,6 +118,7 @@ void binary_search(int search_key,int array[100],int n)
 Output:
 
 ENTER THE SIZE OF THE ARRAY: 21
+
 ENTER THE ELEMENTS OF THE ARRAY:
 10
 20
